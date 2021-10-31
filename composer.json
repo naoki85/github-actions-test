@@ -1,6 +1,7 @@
 {
     "name": "yoneyamanaoki/github-actions-test",
     "description": "",
+    "license": "MIT",
     "require": {
         "phpmd/phpmd": "^2.10"
     },
