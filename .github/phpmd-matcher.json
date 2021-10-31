@@ -4,7 +4,7 @@
       "owner": "phpmd",
       "pattern": [
         {
-          "regexp": "^::([^\s]*)\sfile=([^,]*),line=(\d+)::(.*)$",
+          "regexp": "^::([a-zA-Z]*)\\sfile=([^,]*),line=(\\d+)::(.*)$",
           "severity": 1,
           "file": 2,
           "line": 3,
