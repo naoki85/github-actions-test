@@ -1,0 +1,12 @@
+{
+    "name": "yoneyamanaoki/github-actions-test",
+    "require": {
+        "phpmd/phpmd": "^2.10"
+    },
+    "authors": [
+        {
+            "name": "naoki85",
+            "email": "naoki.yoneyama.85@gmail.com"
+        }
+    ]
+}
