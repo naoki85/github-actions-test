@@ -2,7 +2,6 @@
 class Fibonacci
 {
   function print($number) {
-    $hogehoge = null;
     $first = 0;
     $second = 0;
     for ($i = 1; $i <= $number; $i++) {
@@ -15,7 +14,7 @@ class Fibonacci
         $second = 1;
         continue;
       }
-    
+      
       $now = $first + $second;
       echo $now."\n";
       $first = $second;
