@@ -1,5 +1,6 @@
 {
     "name": "yoneyamanaoki/github-actions-test",
+    "description": "",
     "require": {
         "phpmd/phpmd": "^2.10"
     },
