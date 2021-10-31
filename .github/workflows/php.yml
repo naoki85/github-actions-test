@@ -48,5 +48,7 @@ jobs:
           ${{ runner.os }}-php-
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
-    - name: Run PHPMD
-      run: ./vendor/bin/phpcs index.php --standard=PSR2
+    - name: Run PHPCS
+      uses: chekalsky/phpcs-action@v1
+      with:
+        phpcs_bin_path: './vendor/bin/phpcs'
