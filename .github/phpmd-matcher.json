@@ -1,0 +1,16 @@
+{
+  "phpmdMatcher": [
+    {
+      "owner": "phpmd",
+      "pattern": [
+        {
+          "regexp": "^::([^\s]*)\sfile=([^,]*),line=(\d+)::(.*)$",
+          "severity": 1,
+          "file": 2,
+          "line": 3,
+          "message": 4
+        }
+      ]
+    }
+  ]
+}
