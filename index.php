@@ -21,6 +21,7 @@ class Fibonacci
       $first = $second;
       $second = $now;
     }
+    $fugafuga = null;
   }
 }
 
