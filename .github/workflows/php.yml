@@ -29,8 +29,5 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
 
-    # - name: Enable problem matcher
-    #   run: echo "::add-matcher::.github/phpmd-matcher.json"
-
     - name: Run PHPMD
       run: ./vendor/bin/phpmd . github codesize,controversial,design,naming,unusedcode --exclude 'vendor/*'
